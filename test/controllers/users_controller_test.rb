@@ -1,3 +1,4 @@
+
 require 'test_helper'
 
 class UsersControllerTest < ActionController::TestCase
@@ -5,5 +6,4 @@ class UsersControllerTest < ActionController::TestCase
     get :new
     assert_response :success
   end
-
 end
